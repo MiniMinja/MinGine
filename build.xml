@@ -5,11 +5,11 @@
   </target>
 
   <target name = "clean" depends ="intro">
-    <delete dir="build"/>
+    <delete dir="classes"/>
   </target>
 
   <target name = "compile" depends="clean">
-    <mkdir dir="build"/>
+    <mkdir dir="classes"/>
     <javac srcdir="src" destdir="classes"/>
   </target>
 </project>
