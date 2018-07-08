@@ -1,0 +1,15 @@
+<?xml version = "1.0"?>
+<project name = "MinGine" default = "compile">
+  <target name = "intro">
+    <echo>Starting MinGine...</echo>
+  </target>
+
+  <target name = "clean" depends ="intro">
+    <delete dir="build"/>
+  </target>
+
+  <target name = "compile" depends="clean">
+    <mkdir dir="build"/>
+    <javac srcdir="src" destdir="classes"/>
+  </target>
+</project>

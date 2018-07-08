@@ -8,7 +8,7 @@ public class Mindow extends JPanel{
     frame.add(this);
     frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
     frame.setUndecorated(true);
-    
+
     frame.setVisible(true);
   }
 }
