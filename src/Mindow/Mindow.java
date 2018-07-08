@@ -12,4 +12,9 @@ public class Mindow extends JPanel{
 
     frame.setVisible(true);
   }
+
+  public void paint(Graphics g){
+    super.paint(g);
+    //TODO might need to learn active painting
+  }
 }

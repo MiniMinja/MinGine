@@ -1,3 +1,29 @@
-1. Design Mindow
+1. Design Mindow - DONE
   I want to design a basic window that displays the text "MinGine"
-  
+
+2. Design a world SYSTEM
+  The world can be described as the level in a sense. It will be the whole virtual 2d world where
+the player will operate.
+  Not talking about the world, but the system in which the world will operate
+    - I'm thinking like:
+      - tile-based
+        - this involves mapping tile images to integers
+        - also involves drawing the world based on the tile images and returning image of the whole
+        world
+        -
+      - incorporates spawnpoints
+      - size
+        - This one will be mostly about tile amount. Tilesize will be another thing to
+        add to, but this is like 64x64 which means 64 tiles by 64 tiles, not pixels. TileSize
+        will be seperately implemented.
+
+2. Design a coordinate system
+  There needs to be a "large"(loosely used) world where a "world" or level can be made
+
+3. Design a camera system
+  We need to be able to navigate a zoomed in version of the world, instead of looking at world
+from a far away perspective
+
+
+TODO) Add simpleObject called "Mobject"
+  No animation, just generates it in a World coordinate system
